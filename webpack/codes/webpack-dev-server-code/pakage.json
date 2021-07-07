@@ -1,0 +1,20 @@
+{
+  "name": "project-manegment",
+  "version": "1.0.0",
+  "description": "managmnt",
+  "main": "index.js",
+  "scripts": {
+    
+    "blessy1": "webpack serve --config webpack.config.js --open",
+    "blessy": "webpack serve --open",
+    
+    "dev1": "webpack  serve --open"
+  },
+  "author": "samreen",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.42.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
